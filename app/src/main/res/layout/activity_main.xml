@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Banner"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/banner"
+        android:text="Specials"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/database_list_view"
+        android:layout_below="@+id/Banner"
+        android:dividerHeight="6px"
+        android:divider="@color/colorPrimary">
+
+    </ListView>
+
+</RelativeLayout>
+
+

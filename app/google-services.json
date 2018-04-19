@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "523068330199",
+    "firebase_url": "https://theredbrickinn-f566b.firebaseio.com",
+    "project_id": "theredbrickinn-f566b",
+    "storage_bucket": "theredbrickinn-f566b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523068330199:android:576dca07aec187bb",
+        "android_client_info": {
+          "package_name": "com.app.noahsibaidev.theredbrickinn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523068330199-drmp05jiuggk3tec45k51uidrhaqncq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWwpuNnc5StX5b-R6HOCJ-mRjm89vY_7w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523068330199:android:da0ab3da268d6280",
+        "android_client_info": {
+          "package_name": "com.noahsibaidev.theredbrickinn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523068330199-drmp05jiuggk3tec45k51uidrhaqncq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWwpuNnc5StX5b-R6HOCJ-mRjm89vY_7w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Banner"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/banner"
+        android:text="Deals"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="75sp"
+        android:textStyle="bold" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Banner">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/zero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="50dp"
+                android:padding="10pt"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/zero"
+                android:layout_marginBottom="50dp"
+                android:padding="10pt"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/one"
+                android:layout_marginBottom="50dp"
+                android:padding="10pt"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/two"
+                android:layout_marginBottom="50dp"
+                android:padding="10pt"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/three"
+                android:layout_marginBottom="50dp"
+                android:padding="10pt"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/four"
+                android:layout_marginBottom="50dp"
+                android:padding="10pt"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/five"
+                android:padding="10pt"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="40sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+
+zero = findViewById(R.id.zero);
+one = findViewById(R.id.one);
+two = findViewById(R.id.two);
+three = findViewById(R.id.three);
+four = findViewById(R.id.four);
+five = findViewById(R.id.five);
+six = findViewById(R.id.six);
+
+zero.setText("On offering to help the blind man, the man who then stole his car, had not, at that precise moment, had any evil intention, quite the contrary, what he did was nothing more than obey those feelings of generosity and altruism which, as everyone knows, are the two best traits of human nature and to be found in much more hardened criminals than this one, a simple car-thief without any hope of advancing in his profession, exploited by the real owners of this enterprise, for it is they who take advantage of the needs of the poor.");
+one.setText("Check");
+two.setText("Check");
+three.setText("Check");
+four.setText("Check");
+five.setText("Check");
+six.setText("Check");
